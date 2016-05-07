@@ -75,3 +75,7 @@ Bring some examples here.
 ### Others combinations
 
 Working with siblings with + or using > for the first childs of a certain selection.
+
+## Goal
+
+Student to work on a simple page.

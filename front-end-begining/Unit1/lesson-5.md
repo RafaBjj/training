@@ -29,3 +29,7 @@ Adding a Favicon Icon, pushing the changes.
 Help student with github pages.
 
 Add an error page with github pages.
+
+## Goal
+
+Working on Karma landing page, also adding commits to git hub is important.

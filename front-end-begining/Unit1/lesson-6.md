@@ -14,6 +14,8 @@ Accesibility, mobile first, and proportional units.
 
 Go deeper on percentages / rems / ems / vw and vh.
 
-The goal is student to work on About Me to make it responsive.
-
 Give the student some break points where to work with responsive design, and also show chrome dev tools for devices.
+
+## Goal
+
+The goal is student to work on About Me to make it responsive.

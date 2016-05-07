@@ -23,3 +23,7 @@ Explain the user what is, pwd, ls, cd, mkdir, rmdir, cp, mv. Tell the user about
 Explain a bit about the concept of centralized and not centralized repositories. And colaborations ona repo.
 
 http://pcottle.github.io/learnGitBranching/
+
+## Goal
+
+Work on hacking the new york times, using the chrome developer tools. It should work on creating a git hub and a git hub page.

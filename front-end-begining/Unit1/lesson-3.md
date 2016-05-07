@@ -29,3 +29,7 @@ Explain that there are several ways to add a font to a site.
 ### Other effects.
 
 Explain a bit of box-shadow, text-shadow, border-radius.
+
+## Goal
+
+Student should work on about me page.
