@@ -13,3 +13,7 @@ Finally there is one more challenge adding a new feature. Student should:
 - The app makes an AJAX call to the appropriate endpoint on the StackExchange API (there are a few hints below).
 
 - The DOM is updated with information about top answerers (if any) after the response is returned.
+
+# Goal
+
+Student should go through Tic Tac Toe, and Logo Search.
