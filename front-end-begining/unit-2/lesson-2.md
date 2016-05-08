@@ -12,4 +12,4 @@ Cascading of jquery, this is taken from functional paradigm, rewrite the code a 
 
 ## Goals
 
-Student should bring street fighter finished.
+Student should bring street fighter finished, and start looking to lesson 3 shopping list app.
