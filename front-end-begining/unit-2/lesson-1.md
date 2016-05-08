@@ -42,4 +42,4 @@ Go a bit deeper on first(), last(), prev(), next(). When it is good to use it an
 
 ## Goals
 
-Student should go trough lesson 2.
+Student should go trough lesson 2 and work on street fighter project.
