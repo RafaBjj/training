@@ -3,10 +3,108 @@
 <head>
   <title>Lesson 2, CSS Selectors</title>
   <style media="screen">
-
+    .first-tag > p:nth-child(1){
+      color: blue;
+    }
+    .pare-childs > p:nth-child(2n){
+      color: blue;
+    }
+    .input-types > input[type=text] {
+      border: 3px solid blue;
+    }
+    .input-types-hover > input[type=button]:hover {
+      color: blue;
+    }
+    .pseudo-element-example-1 > p::first-letter {
+      color: blue;
+    }
+    .pseudo-element-example-2 > p::first-line {
+      color: blue;
+    }
+    .pseudo-element-example-3 > button::before {
+      content: "Hi there!"
+    }
   </style>
 </head>
 <body>
-  
+  <h1>CSS selectors</h1>
+  <section>
+    <h4>p:nth-child(1) { color: blue } or p:first-child // First child</h4>
+    <div class="first-tag">
+      <p>
+        Only First paragraph will change color
+      </p>
+      <p>
+        Second paragraph
+      </p>
+      <p>
+        Third paragraph
+      </p>
+    </div>
+  </section>
+  <section>
+    <h4>p:nth-child(2n) { color: blue } // Only pare childs</h4>
+    <div class="pare-childs">
+      <p>
+        Only First paragraph will change color
+      </p>
+      <p>
+        Second paragraph
+      </p>
+      <p>
+        Third paragraph
+      </p>
+      <p>
+        Fourth paragraph
+      </p>
+    </div>
+  </section>
+  <section>
+    <h4>input[type=text] { border: 3px solid blue } // Only input text</h4>
+    <div class="input-types">
+      <input type="checkbox" value="">
+      <br>
+      <input type="radio" value="">
+      <br>
+      <input type="button" value="">
+      <br>
+      <input type="text" value="">
+    </div>
+  </section>
+  <section>
+    <h4>input[type=button]:hover { color: blue; } // Change color on hover of an input, pseudo-class</h4>
+    <div class="input-types-hover">
+      <input type="checkbox" value="">
+      <br>
+      <input type="radio" value="">
+      <br>
+      <input type="button" value="I Will Change Color">
+      <br>
+      <input type="text" value="">
+    </div>
+  </section>
+  <section>
+    <h4>p::first-letter { color: blue;} // First letter of the paragraph will be blue, pseudo-element</h4>
+    <div class="pseudo-element-example-1">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+    </div>
+  </section>
+  <section>
+      <h4>p::first-line { color: blue;} // First letter of the paragraph will be blue</h4>
+      <div class="pseudo-element-example-2">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore <br> et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </div>
+  </section>
+  <section>
+      <h4>button::before { content: "Hi there!";} // before was a pseudo class time ago</h4>
+      <div class="pseudo-element-example-3">
+        <button type="button" name="button">
+        </button>
+      </div>
+  </section>
 </body>
 </html>
