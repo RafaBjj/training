@@ -21,8 +21,18 @@
     .pseudo-element-example-2 > p::first-line {
       color: blue;
     }
-    .pseudo-element-example-3 > button::before {
-      content: "Hi there!"
+    .pseudo-element-example-3, .pseudo-element-example-4 {
+      text-align: center;
+    }
+    .pseudo-element-example-3 > input::before {
+      content: "Hi there!";
+      float: right;
+      margin-right: 2em;
+    }
+    .pseudo-element-example-4 > input::after {
+      content: "Hi there!";
+      float: left;
+      margin-left: 2em;
     }
   </style>
 </head>
@@ -100,10 +110,15 @@
       </div>
   </section>
   <section>
-      <h4>button::before { content: "Hi there!";} // before was a pseudo class time ago</h4>
+      <h4>input::before { content: "Hi there!"; float: right; margin-right: 2em;} // before was a pseudo class time ago</h4>
       <div class="pseudo-element-example-3">
-        <button type="button" name="button">
-        </button>
+        <input type="checkbox" name="button">
+      </div>
+  </section>
+  <section>
+      <h4>input::after { content: "Hi there!"; float: left; margin-left: 2em;} // before was a pseudo class time ago</h4>
+      <div class="pseudo-element-example-4">
+        <input type="checkbox" name="button">
       </div>
   </section>
 </body>
