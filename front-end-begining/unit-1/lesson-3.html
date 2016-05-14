@@ -1,0 +1,85 @@
+<!doctype>
+<html>
+<head>
+  <style media="screen">
+    html {
+      font-size: 16px;
+    }
+    p {
+      margin: 0;
+      padding: 0;
+      font-size: 16px;
+    }
+    .parent-px {
+      margin: 5px;
+      width: 30%;
+      float: left;
+    }
+    .parent-em {
+      width: 30%;
+      margin: 5px;
+      float: left;
+    }
+    .parent-rem {
+      width: 30%;
+      margin: 5px;
+      float: left;
+      font-size: 32px;
+    }
+    .only-px {
+      width: 48px;
+      height: 48px;
+      background-color: green;
+      border: 1px solid black;
+      float: left;
+    }
+    .only-rem {
+      width: 3rem;
+      height: 3rem;
+      background-color: green;
+      border: 1px solid black;
+    }
+    .only-em {
+      width: 3em;
+      height: 3em;
+      background-color: green;
+      border: 1px solid black;
+    }
+    @media screen and (max-width: 900px) {
+      html {
+        font-size: 30px;
+      }
+    }
+    @media screen and (max-width: 900px) {
+      .parent-rem {
+        font-size: 30px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h4>Change view port size (900px break point)</h4>
+  <div class="parent-px">
+    <div class="only-px">
+      <p>
+      PX
+      </p>
+    </div>
+  </div>
+  <div class="parent-rem">
+    <div class="only-rem">
+      <p>
+      REM
+      </p>
+    </div>
+  </div>
+  <div class="parent-em">
+    <div class="only-em">
+      <p>
+      EM
+      </p>
+
+    </div>
+  </div>
+</body>
+</html>
