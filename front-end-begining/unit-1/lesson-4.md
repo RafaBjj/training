@@ -8,7 +8,7 @@ Show how to change colors, centering things in a page, adding a new image to the
 
 ### Changing html of the document.
 
-Show how to add new elements in dom, and how to remove them.
+Show how to add new elements in DOM, and how to remove them.
 
 ### Console
 
@@ -20,7 +20,7 @@ Explain the user what is, pwd, ls, cd, mkdir, rmdir, cp, mv. Tell the user about
 
 ### Git / Github.
 
-Explain a bit about the concept of centralized and not centralized repositories. And colaborations ona repo.
+Explain a bit about the concept of centralized and not centralized repositories. And collaborations on a repo.
 
 http://pcottle.github.io/learnGitBranching/
 
